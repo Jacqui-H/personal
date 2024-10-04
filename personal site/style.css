@@ -1,0 +1,51 @@
+
+.gradient-background {
+  background: linear-gradient(300deg, #00f7ff, #f187ea, #cd5786);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.me {
+    border-radius: 50%;
+    height: 300px;
+  }
+.food{
+  border-radius: 50%;
+  height: 100px;
+
+}
+.type{
+  border-radius: 50%;
+  height: 100px;
+}
+.sea{
+  border-radius: 50%;
+  height: 200px;
+}
+.star{
+  border-radius: 50%;
+  height: 200px;
+}
+.art{
+  border-radius: 50%;
+  height: 200px;
+}
+.flower{
+  border-radius: 50%;
+  height: 200px;
+}
+.fish{
+  border-radius: 50%;
+  height: 200px;
+}
